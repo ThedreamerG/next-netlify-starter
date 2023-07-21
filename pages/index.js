@@ -1,6 +1,6 @@
+import Footer from '@components/Footer/Footer'
+import Header from '@components/Header/Header'
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -11,9 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Gaetan Lusson" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          This is a personal project to learn Next.js
+          Also, I'm using Tailwind CSS for styling
+          My name is gaetan and I'm a web developer
         </p>
       </main>
 
