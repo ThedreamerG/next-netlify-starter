@@ -15,7 +15,7 @@ export default function Accueil() {
                     <h1>Gaetan Lusson</h1>
                     <h2>Web Developer</h2>
                     <p>
-                    Ceci est mon siteweb, servant aussi de CV et de plateforme pour mes projets. Peut changer avec le temps
+                    Ceci est mon siteweb, servant aussi de CV et de plateforme pour mes projets. Ceci est la première version, je compte l'améliorer au fur et à mesure.
                     </p>
                 </div>
             </div>
