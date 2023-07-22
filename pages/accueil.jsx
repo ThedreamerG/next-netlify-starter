@@ -5,12 +5,12 @@ import Head from 'next/head'
 export default function Accueil() {
     return (
         <div className="accueil">
-            <div className='Left Image'>
-                <img src="/images/myphoto.jpg" alt="ma photo" />
+            <div className='left image'>
+                <img className='my_picture' src="/images/myphoto.jpg" alt="ma photo" />
             </div>
-            <div className='Right Container'>
+            <div className='right_container'>
                 <Header/>
-                <div className='Right Content'>
+                <div className='right_content'>
                     <img src="/Argo.svg" alt="logo"/>
                     <h1>Gaetan Lusson</h1>
                     <h2>Web Developer</h2>
