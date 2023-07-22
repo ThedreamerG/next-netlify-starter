@@ -12,11 +12,13 @@ export default function Accueil() {
                 <Header/>
                 <div className='right_content'>
                     <img src="/Argo.svg" alt="logo"/>
-                    <h1>Gaetan Lusson</h1>
-                    <h2>Web Developer</h2>
-                    <p>
-                    Ceci est mon siteweb, servant aussi de CV et de plateforme pour mes projets. Ceci est la première version, je compte l'améliorer au fur et à mesure.
-                    </p>
+                    <div className='text'>
+                        <h1>Gaetan Lusson</h1>
+                        <h2>Web Developer</h2>
+                        <p>
+                        Ceci est mon siteweb, servant aussi de CV et de plateforme pour mes projets. Ceci est la première version, je compte l'améliorer au fur et à mesure.
+                        </p>
+                    </div>
                 </div>
             </div>
     </div>

@@ -6,19 +6,19 @@
 
 .accueil > div {
     width: 50%;
-    margin: 0 1rem;
+    display: flex;
 }
 
 .my_picture {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
 }
 
 .right_container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 2rem;
 }
 
 .right_container > div {
@@ -30,4 +30,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.right_content .text {
+    text-align: center;
+    margin: 1rem 0;
+}
+.right_content h1 {
+    font-size: 40px; 
+}
+
+.right_content h2 {
+    font-size: 28px; 
+} 
+
+.right_content img {
+    width: 40%;
+    height: 40%;
 }
